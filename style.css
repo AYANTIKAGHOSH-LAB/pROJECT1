@@ -95,5 +95,43 @@ body {
     box-shadow: 0 8px 24px rgba(13, 59, 54, 0.1);
 }
 
+.login-section h1 {
+    font-size: 26px;
+    color: var(--forest);
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin-bottom: 26px;
+}
+
+
+form label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 7px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 46px;
+    padding: 0 14px;
+    margin-bottom: 18px;
+    background: #0aeba0;
+    border: 1.5px solid lightseagreen;
+    border-radius: 8px;
+    transition: border-color 0.25s, box-shadow 0.25s, background 0.25s;
+}
+
+
+
+
+
 
 
